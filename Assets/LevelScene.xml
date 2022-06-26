@@ -1,0 +1,26 @@
+<ZBox width="100%" height="100%">
+    <ZLabel text="> 目标：让小白鼠吃到对面的饼干，在黄色块上时操作会反向执行。" size="60" width="100%" color="0xd6deeb" left="50" top="10"/>
+    <HBox left="50" top="110">
+        <ZLabel text="选择指令:" size="60" width="300" color="0xd6deeb"/>
+        <ZButton id="up" src="Atlas:farwardl"/>
+        <ZButton id="down" src="Atlas:farwardl2"/>
+        <ZButton id="right" src="Atlas:right"/>
+        <ZButton id="left" src="Atlas:left"/>
+        <ZButton id="detele" src="Atlas:detele"/>
+        <ZButton id="remake" src="Atlas:remake"/>
+    </HBox>
+    <ZLabel text="已确定指令:" size="60" width="470" color="0xd6deeb" left="50" top="210"/>
+    <ZBox id="command" width="50%" top="320" bottom="0">
+        <ImageBatchs id="batchs" src="Atlas" width="100%" height="100%">
+
+        </ImageBatchs>
+    </ZBox>
+    <ZBox id="gamebox" width="50%" right="0">
+
+    </ZBox>
+    <ZBox width="50%" height="100%">
+        <ZButton id="start" text="开始" src="Atlas:star" centerX="100" bottom="100" />
+        <ZButton id="back" text="返回" src="Atlas:star" centerX="-100" bottom="100" />
+        <ZButton id="next" text="下一关" src="Atlas:star" centerX="0" bottom="100" />
+    </ZBox>
+</ZBox>

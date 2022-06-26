@@ -1,0 +1,3 @@
+<ZButton src="Atlas:levelquad">
+    <ZLabel text="${level}" width="95%" height="95%" hAlign="center" size="36"/>
+</ZButton>

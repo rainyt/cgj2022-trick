@@ -1,0 +1,12 @@
+<ZBox width="100%" height="100%">
+    <ZLabel text="选择关卡" color="0xd6deeb" size="60" width="100%" hAlign="center" top="100"/>
+    <VBox scaleX="2" scaleY="2" centerX="0" centerY="0">
+        <HBox gap="20"> 
+            <LevelItem level="1"/>
+            <LevelItem level="2"/>
+            <LevelItem level="3"/>
+            <LevelItem level="4"/>
+            <LevelItem level="5"/>
+        </HBox>
+    </VBox>
+</ZBox>

@@ -1,0 +1,19 @@
+<ZBox width="100%" height="100%">
+    <ZLabel id="title" text="Trick Code Demo CGJ2022" width="100%" hAlign="center" height="100" size="60" color="0xd6deeb" centerY="-300"/>
+    <ZLabel id="desc" text="游戏玩法：使用指令块，让小白鼠进行移动，到达终点胜利。" width="100%" hAlign="center" height="100" size="36" color="0xd6deeb" centerY="200"/>
+    <ZLabel id="clickplay" text="- 点击开始 -" width="100%" hAlign="center" height="100" size="36" color="0xd6deeb" centerY="300"/>
+    <HBox id="group" gap="50" centerX="0" centerY="-40" scaleX="0.7" scaleY="0.7">
+        <ArthorItem imgname="head1" textname="左眼" zwname="程序"/>
+        <ArthorItem imgname="head2" textname="Lay" zwname="策划"/>
+        <ArthorItem imgname="head3" textname="南极拉面屋" zwname="美术"/>
+    </HBox>
+    <ZImage src="head1" load="true"/>
+    <ZImage src="head2" load="true"/>
+    <ZImage src="head3" load="true"/>
+    <ZTween id="play" auto="true" sync="true">
+        <tween bind="title" start="0" end="20" key="alpha" from="0" to="1" />
+        <tween bind="group" start="20" end="40" key="alpha" from="0" to="1" />
+        <tween bind="desc" start="40" end="60" key="alpha" from="0" to="1" />
+        <tween bind="clickplay" start="60" end="80" key="alpha" from="0" to="1" />
+    </ZTween>
+</ZBox>

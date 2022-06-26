@@ -1,0 +1,5 @@
+<ZBox width="260" height="400">
+    <ZImage src="${imgname}" scaleWidth="220" scaleHeight="220" centerX="0"/>
+    <ZLabel text="${textname}" size="46" height="50" color="0xd6deeb" width="100%" hAlign="center" bottom="100"/>
+    <ZLabel text="${zwname}" size="36" height="50" color="0xd6deeb" width="100%" hAlign="center" bottom="50"/>
+</ZBox>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:146ce9749ec55577b46cd8cf54157ee1:807333b72637c8a44ec3a8762f7bc9d5:6f4bd306abe6acedba29ba5ed0904060$ -->
+<TextureAtlas imagePath="Atlas.png" width="925" height="82">
+    <SubTexture name="detele" x="354" y="1" width="80" height="80"/>
+    <SubTexture name="farwardl" x="226" y="1" width="62" height="72" frameX="-9" frameY="-4" frameWidth="80" frameHeight="80"/>
+    <SubTexture name="farwardl2" x="290" y="1" width="62" height="72" frameX="-9" frameY="-4" frameWidth="80" frameHeight="80"/>
+    <SubTexture name="goal" x="436" y="1" width="80" height="80"/>
+    <SubTexture name="left" x="88" y="1" width="67" height="67" frameX="-4" frameY="-9" frameWidth="80" frameHeight="80"/>
+    <SubTexture name="levelquad" x="518" y="1" width="80" height="80"/>
+    <SubTexture name="mouse-1" x="59" y="1" width="27" height="49" frameX="-10" frameY="0" frameWidth="50" frameHeight="50"/>
+    <SubTexture name="mouse-2" x="1" y="1" width="27" height="47" frameX="-11" frameY="-2" frameWidth="50" frameHeight="50"/>
+    <SubTexture name="mouse-3" x="30" y="1" width="27" height="47" frameX="-11" frameY="-2" frameWidth="50" frameHeight="50"/>
+    <SubTexture name="originl" x="600" y="1" width="80" height="80"/>
+    <SubTexture name="remake" x="682" y="1" width="80" height="80"/>
+    <SubTexture name="right" x="157" y="1" width="67" height="67" frameX="-9" frameY="-9" frameWidth="80" frameHeight="80"/>
+    <SubTexture name="star" x="764" y="1" width="160" height="80"/>
+</TextureAtlas>

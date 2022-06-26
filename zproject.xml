@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="Trick" package="com.sample.trick" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Trick" hdwidth="1920" hdheight="1080" />
+
+	<window width="1920" height="1080" />
+
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+
+	<assets path="Assets" rename="assets" embed="false" />
+	<assets path="Font" rename="font" />
+	<haxelib name="zygameui" />
+	<haxelib name="zygameui-ldtk" />
+	<haxelib name="pupilscript" />
+</project>
